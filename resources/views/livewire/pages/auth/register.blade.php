@@ -37,11 +37,11 @@ new #[Layout('layouts.guest')] class extends Component {
 
         // 08xxxx -> +628xxxx
         if (str_starts_with($p, '08')) {
-            $p = '+62' . substr($p, 1);
+            $p = '62' . substr($p, 1);
         }
         // 62xxxx -> +62xxxx
         if (str_starts_with($p, '62')) {
-            $p = '+' . $p;
+            $p = '' . $p;
         }
 
         return $p;
