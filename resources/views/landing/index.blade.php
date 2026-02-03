@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nikhan & Associates Law Office</title>
+    <link rel="shortcut icon" href="{{ asset('images/favicon.webp') }}">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 

@@ -9,7 +9,7 @@
 
         {{-- Brand --}}
         <a href="{{ route('home') }}" class="flex items-center gap-3">
-            <img src="{{ asset('images/nikhan-logo.jpeg') }}" class="h-10 w-auto" alt="Nikhan & Associates" />
+            <img src="{{ asset('images/favicon.webp') }}" class="h-10 w-auto" alt="Nikhan & Associates" />
             <div class="leading-tight">
                 <div class="text-sm font-semibold tracking-wide text-zinc-900 dark:text-white">
                     Nikhan & Associates
