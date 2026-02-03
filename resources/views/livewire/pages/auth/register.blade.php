@@ -319,9 +319,9 @@ new #[Layout('layouts.guest')] class extends Component {
             class="rounded-[32px] border border-zinc-300/70 bg-white/80 p-8 shadow-sm backdrop-blur
                     dark:border-white/15 dark:bg-white/5">
             <div>
-                <h2 class="text-xl font-semibold text-zinc-900 dark:text-white">Daftar (Client)</h2>
+                <h2 class="text-xl font-semibold text-zinc-900 dark:text-white">Daftar</h2>
                 <p class="mt-1 text-sm text-zinc-700 dark:text-zinc-200/80">
-                    Akun ini otomatis role:
+                    Buat akun baru biar kamu bisa pantau case dengan terstruktur.
                     <span class="font-semibold" style="color: var(--brand-gold);">client</span>.
                 </p>
             </div>

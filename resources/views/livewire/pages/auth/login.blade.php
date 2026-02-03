@@ -250,7 +250,8 @@ new #[Layout('layouts.guest')] class extends Component {
 
             <h2 class="text-xl font-semibold text-zinc-900 dark:text-white">Masuk</h2>
             <p class="mt-1 text-sm text-zinc-700 dark:text-zinc-200/80">
-                Gunakan email dan password yang terdaftar.
+                Pantau status case, komunikasi dengan lawyer, dan kelola dokumen hukum Anda
+                secara aman dan terstruktur.
             </p>
 
             <x-auth-session-status class="mt-4" :status="session('status')" />
